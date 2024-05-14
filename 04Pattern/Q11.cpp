@@ -6,16 +6,18 @@ int main()
     int n;
     cin >> n;
     int i = 1;
-    int t = 1;
+    char t = 'A';
+
     while (i <= n)
     {
         int j = 1;
-        while (j <= i)
+        while (j <= n)
         {
-            cout << t;
+
+            cout << t << " ";
             j++;
-            t++;
         }
+        t++;
         cout << endl;
         i++;
     }
